@@ -1,0 +1,84 @@
+.cart-header-inner { width: 1020px; margin: auto; height: 30px; position: relative; }.cart-wrap { width: 1020px; margin: 0 auto; padding-bottom: 50px;}
+.cart-logo { float: left; width: 280px; margin-right: 20px; height: 40px; background: url("../img/logo.png") no-repeat;}
+.cart-step { border: 1px solid #e5e5e5; height: 38px; width: 615px; float: right; margin-top: 10px;}
+.cart-step1 { left: -1px; top: -1px; color: #fff; background-color: #f25e5a; z-index: 1; color: #cacaca; height: 40px; font-size: 14px; line-height: 40px; float: left; width: 205px; position: relative; color: white; font-family: "微软雅黑"; }
+.cart-triangle1 { display: block; border-color: transparent transparent transparent #f25e5a; border-width: 20px 11px; border-style: solid; position: absolute; right: -22px; width: 0; height: 0; line-height: 0; top: 0;}
+.cart-icon_number1 { background-color: #fff; color: #f25e5a; width: 20px; height: 20px; display: inline-block; text-align: center; line-height: 20px; border-radius: 50%; margin: 0 10px 0 52px; font-family: arial; font-weight: 700;}
+.cart-step2 { color: #cacaca; height: 40px; font-size: 14px; line-height: 40px; float: left; width: 205px; position: relative; font-family: "微软雅黑";}
+.cart-icon_number2 { width: 20px; height: 20px; display: inline-block; text-align: center; line-height: 20px; border-radius: 50%; margin: 0 10px 0 52px; font-family: arial; font-weight: 700; background-color: #e5e5e5; color: #fff;}
+.icon-to { position: absolute; left: auto; right: 0; top: 10px; background: url(../img/tb.png) -64px -85px no-repeat; vertical-align: middle; display: inline-block; width: 7px; height: 21px;}
+.cart-step3 { color: #cacaca; height: 40px; font-size: 14px; line-height: 40px; float: left; width: 205px; position: relative;}
+.cart-triangle3 { border-width: 20px 11px; border-style: solid; position: absolute; right: -22px; width: 0; height: 0; line-height: 0; top: 0; display: none;}
+.cart-icon_number3 { width: 20px; height: 20px; display: inline-block; text-align: center; line-height: 20px; border-radius: 50%; margin: 0 10px 0 52px; font-family: arial; font-weight: 700; background-color: #e5e5e5; color: #fff;}
+/*订单列表头*/
+.cart-table { padding-top: 60px;}
+.cart-thead { border: 1px solid #ccc; height: 38px; line-height: 38px;}
+.cart-thead ul { line-height: 38px}
+.th-check { width: 100px; text-align: left; float: left}
+.th-check label { font-family: "微软雅黑"; color: #666}
+.th-check input { margin-left: 18px; margin-right: 16px; width: 14px; height: 14px;  margin-top: -3px}
+.th-name { width: 440px; line-height: 38px; text-align: center; float: left; font-family: "微软雅黑"; color: #666}
+.th-price { width: 120px; line-height: 38px; text-align: center; float: left; font-family: "微软雅黑"; color: #666}
+.th-number { width: 116px; line-height: 38px; text-align: center; float: left; font-family: "微软雅黑"; color: #666}
+.th-total { width: 128px; line-height: 38px; text-align: center; float: left; font-family: "微软雅黑"; color: #666}
+.th-handle {line-height: 38px; text-align: center; float: none; font-family: "微软雅黑"; color: #666}
+.data-empty { width: auto; height: 160px; margin: 0 auto 50px; border-collapse: collapse; border-spacing: 0; display: none;}
+tbody { vertical-align: middle; border-color: inherit;}
+.data-empty td { padding-top: 100px}
+.data-empty td strong { display: block; width: 80px; height: 71px; background: url(../img/ico-cart-empty.png) no-repeat; float: left; margin-right: 30px;}
+.data-empty td span { display: block; padding-top: 16px; height: 100px; float: left; font-size: 14px; font-family: "微软雅黑"; color: #666}
+.data-empty td span a { font-size: 12px; color: #384f61; float: left; margin-top: 10px;}
+.cart-list { margin-top: 20px; border: 1px solid #e5e5e5; padding-bottom: 20px; margin-bottom: 20px;}
+.cart-list .td-check { width: 52px; text-align: center;}
+.cart-list .td { padding-top: 20px; float: left;}
+.cart-list input[type=checkbox] { box-sizing: border-box; padding: 0; line-height: normal; color: inherit; font: inherit; margin: 0; outline: 0;}
+.check { width: 14px; height: 14px; vertical-align: middle; margin-right: 3px; margin-top: -3px;  }
+.cart-list .td-good { width: 486px; position: relative;}
+.cart-list .td-good a { float: left;}
+.cart-list .cover-img { background: url("../img/cover-img.jpg") no-repeat; background-size: 100%;  width: 78px; height: 78px; float: left; border: 1px solid #e5e5e5; margin-right: 20px; background-position: center center;}
+
+.cart-list .td-good .name { line-height: 20px; overflow: hidden; float: none;}
+.cart-list .td-good .title { line-height: 20px; overflow: hidden;}
+.cart-list .td-price { width: 120px; text-align: center;}
+.cart-list .td-number { width: 100px; padding-left: 10px; padding-right: 10px;}
+.cart-list .td-number .btn-number { width: 28px; height: 28px; text-align: center; line-height: 28px; border: 1px solid #e5e5e5; border-right: none 0; display: block; margin-right: 0; float: left}
+.fl { float: left}
+.ico-reduce { background: url(../img/ico_symbol.png) -3px -22px no-repeat; display: inline-block; vertical-align: middle; width: 12px; height: 2px;}
+.number-in { width: 38px; height: 28px; text-align: center; line-height: 28px; padding: 0; float: left; border: 1px solid #e5e5e5;}
+.cart-list .td-number .btn-add { border-right: solid 1px #e5e5e5; border-left: none 0;}
+.cart-list .td-number .btn-number { width: 28px; height: 28px; text-align: center; line-height: 28px; border: 1px solid #e5e5e5; display: block; margin-right: 0;}
+.ico-add { background: url(../img/ico_symbol.png) -24px -17px no-repeat; width: 12px; height: 12px; vertical-align: middle; display: inline-block; margin-top: -2px;}
+.cart-list .td-total { color: #e14958; text-align: center; width: 128px;}
+.cart-list .td { padding-top: 20px;}
+
+.cart-list .td-handle { text-align: center; overflow: hidden; float: none; line-height: 20px;}
+.cart-list .td-handle a { display: inline-block;}
+
+
+
+
+
+/*总计*/
+.total-box { height: 58px; border: 1px solid #ccc; width: 1018px; margin: 0 auto; background-color: #f2f2f2;}
+.fixed{position: fixed;bottom: 0;}
+.sel-all { width: 100px; float: left; padding-top: 22px; font-family: "微软雅黑"; color: #666}
+.sel-all input { vertical-align: middle; margin: -2px 16px 0 18px;}
+.option { padding-top: 22px; float: left}
+.option a { margin-right: 40px; font-family: "微软雅黑"; color: #666}
+.toolbar { float: right; width: 590px}
+.btn-cont { float: right; width: 120px; background-color: #f25e5a; text-align: center; line-height: 60px; margin-top: -1px; margin-right: -1px; font-size: 18px; color: #fff;}
+.total-cont { float: right; padding-right: 18px; padding-top: 10px; line-height: 20px;}
+.total-cont .item { float: inherit; width: 140px; text-align: right; font-family: "微软雅黑"; color: #666; font-weight: inherit; display: inline-block}
+.total-cont .sumprice { display: inline-block}
+.total-cont .rade1 { color: red}
+.f20 { font-size: 20px}
+.amount { float: right; padding-right: 32px; padding-top: 12px;}
+.amount .rade1 { color: red}
+.cart-collect { padding-top: 46px; padding-left: 20px}
+.cart-collect .title { width: 142px; font-size: 14px; border-top: dotted 1px #ccc; margin: 0 auto; font-family: "微软雅黑"; color: #666}
+.cart-collect .title p { background-color: #fff; width: 80px; margin: -12px auto 0; text-align: center;}
+.data-empty1 { width: auto; height: 60px; margin: 18px auto 0;}
+.data-empty1 td { padding: 10px 0; font-size: 16px; font-family: "微软雅黑"; color: #666}
+.data-empty1 td a { font-size: 16px; background: #df4b5b; text-decoration: none; width: 170px; height: 40px; text-align: center; line-height: 40px; color: #fff; display: block;}
+
+

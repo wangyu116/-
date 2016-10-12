@@ -1,0 +1,88 @@
+.detail { width: 1200px; margin: 0 auto; padding-bottom: 50px; height: auto}
+.detail-link { height: 40px; line-height: 40px; margin: 10px 0;}
+.detail-link li { float: left; padding-right: 14px; font-family: "微软雅黑"; color: #666;}
+.detail-link li a { display: inline-block; padding-right: 10px; padding-left: 10px;}
+.ico-home { background: url(../img/ico.png) 0 -45px !important; width: 20px; height: 14px; display: inline-block; vertical-align: middle; margin-top: -2px;}
+.ico-to { background: url(../img/ico_arrow.png) -64px -85px no-repeat; vertical-align: middle; display: inline-block; width: 7px; height: 21px;}
+.detail-left { width: 1020px; float: left}
+.detail-intro { margin-bottom: 20px;}
+.detail-link li .sort { border: 1px solid #ccc; padding: 0 24px 0 2px; height: 23px; margin-top: 8px; line-height: 23px; position: relative; z-index: 2; margin-right: 14px;}
+.sort-name { font-family: "微软雅黑"; color: #666;}
+.sort .ico-sort-ar { right: 6px; position: absolute; top: 0}
+.sort .ico-sort-ar .up { margin-top: -4px; border-color: transparent transparent #c2c2c2; display: block; vertical-align: top; height: 0; line-height: 0; width: 0; border-style: solid; border-width: 6px 3px;}
+.sort .ico-sort-ar .down { display: block; border-color: #c2c2c2 transparent transparent; vertical-align: bottom; margin-top: 6px; height: 0; line-height: 0; width: 0; border-style: solid; border-width: 6px 3px;}
+.drop { border: 1px solid #ccc; position: absolute; top: 23px; left: -1px; background-color: #fff;}
+.icon-to { background: url(../img/ico_arrow.png) -64px -85px no-repeat; vertical-align: middle; display: inline-block; width: 7px; height: 21px;}
+.search-input { padding: 0 3px; width: 140px; height: 23px; line-height: 23px; border: 0;
+    background-color: transparent;}
+.ico-search { position: absolute; right: 6px; top: 6px; width: 13px; height: 12px; border: 0; background: url(../img/ico-sort.png) -38px top no-repeat; vertical-align: middle; display: inline-block;}
+.condition { border: 1px solid #ccc; padding: 18px 20px 20px;}
+.condition li { position: relative}
+.condition dt { float: left; width: 70px;  font-weight: 700; padding: 8px 0 10px; font-family: "微软雅黑"; color: #666;}
+.condition dd { float: left; width: 840px; line-height: 14px; padding-bottom: 10px; height: auto;}
+.select-inner { height: auto; font-family: "微软雅黑"; color: #666;}
+.condition dd .item { float: left; margin: 10px 20px 0 0; display: block; width: 100px; overflow: hidden;  white-space: nowrap; text-overflow: ellipsis; font-family: "微软雅黑"; color: #666;}
+.mul-select { display: none; overflow: visible; height: auto; border: 1px solid #ccc; padding: 10px 20px; margin-top: 10px; margin-bottom: 14px;}
+.select-function { clear: both; text-align: center; padding-top: 14px; padding-bottom: 10px; display: block;}
+.select-function button { width: 68px; height: 22px; line-height: 16px; margin-right: 36px;}
+button { overflow: visible; background-color: #e14958; border: 1px solid #e14958; color: #fff; display: inline-block; padding: 0; align-items: center;}
+.condition li .option { position: absolute; right: 0; top: 2px;}
+.condition li .option a { width: 58px; height: 24px; line-height: 24px; border: 1px solid #ccc; display: inline-block;}
+.condition li .option a .ico-add { padding: 0 9px; vertical-align: middle; margin-top: -6px; display: inline-block;}
+.condition li .option a .ico-r-4-7 { border-color: transparent transparent transparent #ccc; border-width: 4px 7px; margin: -2px 3px 0 10px; display: inline-block; vertical-align: middle; height: 0; line-height: 0; width: 0; border-style: solid;}
+.sortBar { background-color: #fbfbfb; border: 1px solid #ccc; height: 36px; line-height: 36px; padding: 0 15px; margin-top: 20px; position: relative;}
+.pr10 { padding-right: 10px;}
+.current { color: #e14958;}
+.sortInner a { display: inline-block; position: relative; padding-right: 10px; margin-right: 20px; color: #666; font-family: "微软雅黑"}
+.ico-sort-dr { background-position: -11px top;}
+.ico-sort-d { width: 9px; height: 12px; display: block; position: absolute; right: 0; top: 13px;     vertical-align: middle; background: url(../img/ico-sort-d.png) left top no-repeat;}
+.ico-sort-ar { position: absolute; right: 0; top: 0;}
+.ico-sort-ar .up { border-color: transparent transparent #c2c2c2; display: block; vertical-align: top; margin-top: 4px; height: 0; line-height: 0; width: 0; border-style: solid; border-width: 6px 3px;}
+.ico-sort-ar .down { display: block; border-color: #c2c2c2 transparent transparent; vertical-align: bottom; margin-top: 6px; height: 0; line-height: 0; width: 0; border-style: solid; border-width: 6px 3px;}
+.stock { padding-right: 44px; cursor: pointer; color: #666; font-family: "微软雅黑"}
+.sortBar .stock input { ertical-align: middle; width: 14px; height: 14px; margin-top: -4px; margin-right: 3px; box-sizing: border-box; padding: 0; line-height: normal; color: inherit; font: inherit; margin: 0; outline: 0; border: 1px solid #666; border-radius: 20%; background-color: initial}
+.sortPage { position: absolute; top: 0; right: 8px;}
+.sortPage .p28 { padding-right: 28px;}
+.rede1 { color: #e14958;}
+.sortPage .line { margin: 0 2px;}
+
+.searchList { margin-left: -20px; margin-top: 20px;}
+.searchList li { background-color: #fff; width: 283px; height: 378px; border: 1px solid #e5e5e5; margin-left: 20px; float: left;}
+.new-img { width: 283px; height: 268px; display: block; position: relative;}
+.a-new-img { background: url(../img/new_img.jpg) no-repeat; background-size: cover; width: 283px; height: 268px; display: block; position: relative; }
+.new-sign { position: absolute; right: 0; top: 0; width: 100%; z-index: 2; background: 0 0; margin-right: 0; text-align: right;}
+.bgoption { width: 283px; height: 30px; position: absolute; bottom: 0; left: 0; z-index: 2; background-color: #895ca5; opacity: .8; filter: alpha(opacity=80); display: none;}
+.new-option { width: 283px; height: 30px; font-size: 14px;  line-height: 30px; color: #fff; text-align: center; position: absolute; z-index: 3; bottom: 0;  display: block; background-color: #9a74af; font-family: "微软雅黑"; display: none}
+.ico-g-cat { width: 18px; margin-top: -5px; background: url("../img/ico.png") 0 -88px; display: inline-block; height: 16px; margin-left: 7px;}
+.data { padding: 8px 26px 0;}
+.new-price { padding-bottom: 8px;}
+.new-rede1 { color: red}
+.new-now-price { padding-right: 4px; font-size: 20px; color: #e14958;}
+.new-old-price { text-decoration: line-through;}
+.w285-title { line-height: 18px; height: 36px; overflow: hidden; color: #666;}
+.title-discount { line-height: 18px; color: red}
+.title-rede1 { line-height: 18px; color: red}
+.w285-title a { width: 224px; color: #666}
+.search-function { padding-top: 8px; font-size: 12px; color: #999;}
+.function .line { padding: 0 6px}
+.pagination .page { float: right; padding-bottom: 20px; padding-top: 20px;  }
+.pagination .page ul { float: left;}
+.pagination .page ul li.current { background-color: #e5e5e5!important; color: #fff; cursor: default;}
+.pagination .page ul li { float: left; width: 28px; text-align: center; height: 28px; line-height: 28px; border: 1px solid #e5e5e5; margin-left: 10px;}
+.pagination .page .page-link { cursor: pointer;}
+.pagination .page .next-page-link { float: left; width: 48px; text-align: center; height: 28px; line-height: 28px; border: 1px solid #e5e5e5; margin-left: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

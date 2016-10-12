@@ -1,0 +1,74 @@
+.landing { display: block; position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 200;}
+.landing-banner { padding: 20px 0; width: 1200px; margin: 0 auto; position: relative; z-index: 4;}
+.landing-banner .logo { float: left; width: 280px; height: 60px; background: url(../img/logo.png) no-repeat;}
+.landing-bg { background: #f9fbfd; border-top: solid 1px #d8d8d8;}
+.landing-index { width: 1200px; margin: 0 auto; height: 660px; background: url(../img/login_bg.png) 80px 40px no-repeat #f9fbfd;}
+.landing-ct { width: 390px; height: 446px; float: right; border: 1px solid #e5e5e5; background: #fff; padding: 20px 30px; margin-top: 45px; margin-right: 80px;}
+.landing-pane1 h2 { line-height: 30px; border-left: 3px solid #7d589d; font-size: 16px; font-weight: 400; text-indent: 10px; margin-bottom: 24px; font-family: "微软雅黑"; color: #666}
+.landing-pane1 h2 a {color: #666; text-decoration: none;}
+.tabs {width: 282px; border-bottom: 1px solid #7d589d; padding: 0 36px; margin: 0 auto;}
+.tabs .active { background-image: url(../img/login_arr.png); background-position: 0 18px; background-repeat: no-repeat; font-family: "微软雅黑"; color: #666}
+.tabs a { display: block; float: left; height: 28px; width: 70px; text-align: center; font-size: 16px; margin-right: 36px; font-family: "微软雅黑"; color: #666}
+/*登录*/
+.landing-form { margin: 40px 0 0 30px; width: 320px; font-size: 15px; display: block}
+.ctr1 { margin-bottom: 20px; position: relative}
+.landing-sign { width: 40px; height: 38px; display: block; top: 1px; left: 1px; border-right: solid 1px #ccc; position: absolute}
+.ico-user { background: url(../img/ico-user.png) -29px 0 no-repeat; display: inline-block; vertical-align: middle; width: 20px; height: 19px; margin: 10px 0 0 10px;}
+.ico-user1 { background: url(../img/ico-user.png) no-repeat; display: none; vertical-align: middle; width: 20px; height: 19px; margin: 10px 0 0 10px;}
+.mobile-error { position: absolute; background: rgba(0,0,0,.75); border-radius: 3px; z-index: 10; left: 6px; height: 30px; border: none!important; line-height: 30px; display: block; box-sizing: border-box; color: #fff; padding: 0 10px; white-space: nowrap; bottom: -38px; font-size: 12px!important; display: none}
+
+.mobile-error1 { position: absolute; background: rgba(0,0,0,.75); border-radius: 3px; z-index: 10; left: 6px; height: 30px; border: none!important; line-height: 30px; display: block; box-sizing: border-box; color: #fff; padding: 0 10px; white-space: nowrap; bottom: -38px; font-size: 12px!important; display: none}
+
+.ico-password { background: url(../img/ico-user.png) -29px -27px no-repeat; display: inline-block; vertical-align: middle; width: 20px; height: 19px; margin: 10px 0 0 10px;}
+.ico-password1 { background: url(../img/ico-user.png) 0 -27px no-repeat; display: none; vertical-align: middle; width: 20px; height: 19px; margin: 10px 0 0 10px;}
+.ico-password2 { background: url(../img/ico-user.png) -29px -27px no-repeat; display: inline-block; vertical-align: middle; width: 20px; height: 19px; margin: 10px 0 0 10px;}
+.landing-form input { width: 265px; height: 36px; padding-left: 55px; line-height: 40px;  border: 1px solid #ccc; color: #666; font-family: "微软雅黑"}
+.forget { font-size: 12px; text-align: right; clear: both;}
+.forget a { color: #666; font-family: "微软雅黑"}
+.forget a:hover { text-decoration: underline}
+.submit-btn { background: #e14958; width: 320px; height: 40px; margin-top: 16px; font-size: 15px; font-weight: 700; color: white; font-family: "微软雅黑"}
+
+/*注册*/
+.register-form { margin: 40px 0 0 30px; width: 320px; font-size: 15px; display: none}
+.register-form .mobile { width: 265px; height: 36px; padding-left: 55px; line-height: 40px;  border: 1px solid #ccc; color: #666; font-family: "微软雅黑"}
+.register-form .verify { width: 145px;height: 36px; padding-left: 55px; line-height: 40px;  border: 1px solid #ccc; color: #666; font-family: "微软雅黑"; margin-right: 16px;}
+.captcha { float: right; width: 100px; height: 28px; margin-top: 7px;}
+.sms { width: 145px; margin-right: 16px; height: 36px; padding-left: 55px; line-height: 40px; border: 1px solid #ccc; color: #666; font-family: "微软雅黑";}
+.ico-msgCode { background: url(../img/ico-user.png) -29px -56px no-repeat; display: inline-block; vertical-align: middle; width: 20px; height: 23px; margin: 8px 0 0 10px;}
+.register-form button { float: right; background: #94d469; border: none; width: 100px; height: 28px; padding: 0; text-align: center; font-size: 13px; color: #fff; margin-top: 7px; font-family: "微软雅黑";}
+.register-form .resent { display: none; background: #e5e5e5; color: #999; float: right; border: none; width: 100px; height: 28px; padding: 0; text-align: center; font-size: 13px; color: #fff; margin-top: 7px;}
+.register-form .ctr11 { margin-bottom: 0}
+.ctr11 .password { width: 265px; height: 36px; padding-left: 55px; line-height: 40px; border: 1px solid #ccc; font-family: "微软雅黑";}
+.agreement { font-size: 12px; color: #666; font-family: "微软雅黑"; padding: 5px 0}
+.agreement input { width: auto; height: auto; margin: 0; padding: 0; vertical-align: middle;}
+.agreement a { color: #00F;}
+.agreement a:hover { text-decoration: underline}
+.register-form .dispabled { background: #ccc}
+.register-form .submit-btn1 { width: 320px; height: 40px; margin-top: 16px; font-size: 15px; font-weight: 700;}
+
+
+
+/*footer开始*/
+.footer { font-size: 12px; font-family: "微软雅黑"; color: #666; margin: 0; padding: 0; display: block; position: relative;}
+.assure { background-color: #fff; height: 79px; line-height: 79px; border-bottom: solid 1px #e0e0e0; box-shadow: 0 2px 2px #e0e0e0; border-top: solid 1px #d8d8d8; display: block}
+.assure ul { width: 960px; margin: 0 auto; line-height: 79px; height: 79px}
+.assure li { float: left; font-size: 14px; display: list-item; text-align: -webkit-match-parent; height: 79px; margin-left: 130px;}
+.assure li:first-child { margin-left: 0; float: left}
+.ico-arrow { width: 22px; height: 41px; margin-left: 50px; background: url(../img/ico_arrow.png) -2px -135px no-repeat; display: inline-block; vertical-align: middle; line-height: 79px;}
+.assure-1 { vertical-align: middle; display: inline-block;  width: 30px; height: 30px; margin-right: 7px; background: url(../img/assure.png) no-repeat}
+.assure-2 { vertical-align: middle; display: inline-block; width: 30px; height: 30px; margin-right: 7px; background: url(../img/assure.png) -36px 0 no-repeat;}
+.assure-3 { vertical-align: middle; display: inline-block; width: 30px; height: 30px; margin-right: 7px; background: url(../img/assure.png) -73px 0 no-repeat;}
+.investor { width: 1110px; margin: 0 auto; padding: 24px 0 40px 42px; border-bottom: solid 1px #d8d8d8;}
+.investor dt { font-size: 18px; line-height: 40px;}
+.investor-first { width: 660px; float: left; }
+.copyright { text-align: center; padding-bottom: 20px;}
+.f14 { padding: 20px 0 0; font-size: 14px; font-family: "微软雅黑"; color: #666;}
+.copyright table { margin: 20px auto 0; width: 530px;}
+tbody { display: table-row-group; vertical-align: middle; border-color: inherit;}
+table.f14 { font-size: 14px}
+table { border-collapse: collapse;}
+.cxwz { float: left}
+.kxwz { width: 114px; height: 41px;}
+.copyright table span { float: left; margin-right: 2px; display: inline-block; background: url(../img/tbspan.jpg) no-repeat; width: 114px; height: 41px; border: 0;}
+/*footer结束*/
+
